@@ -33,10 +33,15 @@ p {
     font-style: normal;
 }
 button {
-    background-color: #fce3e1;
-    border: 1px solid #70B0B1;
-    font-family: 'Cormorant Garamond', serif;
+    display: inline-block;
+    background-color: #34a0a4;
+    border: 2px solid #0077b6;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
     font-style: bold;
+    padding: 15px;
+    border-radius: 8px;
 }
 /* NAVIGATION */
 .inline-block{
@@ -106,8 +111,8 @@ button {
     margin: 0 15px;
 }
 .grid-item{
-    background-color: #B9CFBA;
-    border: 2px solid #283F3B;
+    background-color: #d8e2dc;
+    border: 2px solid #52796f;
     padding: 15px;
 }
 /* PROCESS */
