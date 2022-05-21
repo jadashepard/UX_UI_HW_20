@@ -1,0 +1,157 @@
+@media only screen and (max-width: 600px){
+    .work-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5px;
+        padding: 15px;
+        margin: 0 15px;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.5;
+    background-color: #FBFEF9;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-style: bold;
+}
+h2 {
+    font-size: 30px;
+    font-style: bold;
+}
+h3 {
+    font-size: 22px;
+    font-style: normal;
+}
+p {
+    font-size: 16px;
+    font-style: normal;
+}
+button {
+    background-color: #fce3e1;
+    border: 1px solid #70B0B1;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: bold;
+}
+/* NAVIGATION */
+.inline-block{
+    padding: 15px;
+    background-color: #B9CFBA;
+}
+.inline-block ul{
+    float: right;
+}
+.inline-block li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.inline-block a {
+    font-style: bold;
+    text-decoration: none;
+    color: black;
+}
+/* FLEXBOX */
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left, .right {
+    text-align: center;
+}
+/* HERO */
+.heroImg{
+    background-color: #B9CFBA;
+    padding: 100px 15px;
+}
+.heroImg .left {
+    width: 35vw;
+}
+/* SKILLS */
+.my-skills li{
+    list-style-type: none;
+}
+.my-skills h1{
+    text-decoration: underline;
+}
+.my-skills .right, .my-skills .left {
+    width: 25vw;
+}
+.my-skills .right{
+    text-align: left;
+}
+.vl {
+    border-left: 4px solid #384D0C;
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 10px;
+}
+/* WORK */
+.my-work h1 {
+    text-align: center;
+}
+.work-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    padding: 15px;
+    margin: 0 15px;
+}
+.grid-item{
+    background-color: #B9CFBA;
+    border: 2px solid #283F3B;
+    padding: 15px;
+}
+/* PROCESS */
+.my-process{
+    padding: 0 30px;
+}
+/* TOOLS & LANGUAGES */
+.my-tools{
+    margin: 10px 30px;
+    background-color: #FCA17D;
+    
+}
+.my-tools .left, .my-tools .right{
+    text-align: left;
+}
+/* ABOUT */
+.about .left, .about .right{
+    padding: 20px;
+    width: 35vw;
+    text-align: left;
+}
+/* HOBBIES */
+.my-hobbies h1{
+    padding: 15px;
+    margin: 20px 15px;
+    line-height: 0;
+}
+.my-hobbies .grid-item{
+    text-align: center;
+}
+/* FOOTER */
+.contact{
+    text-align: center;
+}
+footer {
+    padding: 5px;
+}
+footer ul{
+    list-style: none;
+    padding-left: 5px;
+}
+footer .inline-block{
+    display: inline-block;
+    padding: 0px 7px;
+    background-color: none;
+}
+
