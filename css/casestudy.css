@@ -1,0 +1,36 @@
+body{
+    background-color: #123D67;
+    color: white;
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+/* SECONDARY NAVIGATION */
+.navigation .nav{
+    background-color: white;
+    border: 1px solid red;
+    margin: 0 20px;
+}
+.nav a{
+    color: #123D67;
+    font-size: 18px;
+    font-family: Arial;
+}
+/* TITLE */
+/* OVERVIEW */
+h1, .project-overview h3{
+    text-align: center;
+    margin: 20px;
+}
+.project-overview{
+    margin: 20px;
+}
+.card-section .card{
+    margin: 5px;
+}
+/* PROBLEM */
+/* PROCESS */
+.mobile-row{
+    background-color: aliceblue;
+}
