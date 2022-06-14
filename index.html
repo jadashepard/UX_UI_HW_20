@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--FONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Cormorant+Garamond&family=Poppins&display=swap" rel="stylesheet">
+        <!--BOOTSTRAP CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--CSS-->
         <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
         <title>
             Jada Shepard
         </title>
     </head>
     <body>
         <header class="navigation">
-            <div class="inline-block logo">
-                <!--add image tag for logo here-->
-                <nav class="inline-block">
-                    <ul>
-                        <li><a class="active" href="#work">WORK</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                        <li><a href="#resume">RESUME</a></li>
-                    </ul>
-                </nav>
+            <div class="inline-block">
+                <img src="#">
+                <ul>
+                    <li><a class="active" href="#work">WORK</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#resume">RESUME</a></li>
+                </ul>
             </div>
         </header>
         <section class="heroImg">
@@ -40,6 +42,7 @@
                     <img src="images/headshot.png" width="464px" height="619px" alt="Picture of Jada Shepard">
                 </div>
             </div>
+        </section>
         </section>
         <section class="my-skills">
             <div class="flex-container">
@@ -72,7 +75,7 @@
         <section class="my-work">
             <h1>SELECTED WORK</h1>
             <div class="work-grid">
-                <div class="grid-item">
+                <div class="grid-item" id="cs3">
                     <!--img tag here-->
                     <dl>
                         <dt><h2>MOBILE PROTOTYPE GENDA: MORE TIME DOING</h2></dt>
@@ -81,8 +84,8 @@
                     </dl>
                     <button>View Project</button>
                 </div>
-                <div class="grid-item">
-                    <!--img tag here-->
+                <div class="grid-item" id="cs1">
+                    <img src="images/casestudy_one/Homepage_Desktop.png">
                     <dl>
                         <dt><h2>MOBILE & DESKTOP PROTOTYPE NON-PROFIT UI REDESIGN</h2></dt>
                         <dd><p>Angel Flight Soars provides free transportation for medical patients. We teamed up with this non-profit to propel their website into the future with a complete UI overhaul. 
@@ -90,14 +93,35 @@
                     </dl>
                     <button><a href="casestudy_one.html">View Case Study</a></button>
                 </div>
-                <div class="grid-item">
-                    <!--img tag here-->
+                <div class="grid-item" id="cs2">
+                    <img src="images/casestudy_two/Homepage.png">
                     <dl>
-                        <dt><h2>MOBILE PROTOTYPE MAPBREAK: BREAK FROM THE MAP</h2></dt>
-                        <dd><p>Mapbreak is a stop based navigation application, featuring built in filtering and location sharing so users always know what to expect on their travels, and can safely take a break from the map.
+                        <dt><h2>DESKTOP STREAMING SERVICE REDESIGN: CRUNCHYROLL</h2></dt>
+                        <dd><p>Crunchyroll connects anime and manga fans across 200+ countries and territories with the content and experiences they love.
                         </p></dd>
                     </dl>
                     <button>View Project</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="flex-container">
+                <div class="left">
+                    <h1>ABOUT</h1>
+                    <h3>Hi! My name is Jada, and I have always loved art, design, and writing. 
+                    </h3>
+                    <h3>I graduated from the University of Georgia and obtained my bachelor’s
+                        of science in Computer Science, and my bachelor’s of arts in Cognitive Science. 
+                        I have dedicated my career to this intersection of technology and humanity,
+                        and received my certificate in UX/UI Design from Georgia Tech.  
+                    </h3>
+                    <h3>I continue to hone my skills in User Research, User Interface Design,
+                        and Front End Development. Grab a cup of coffee and check out what
+                        I have accomplished so far, as this is only the beginning of the journey!
+                    </h3>
+                </div>
+                <div class="right">
+                    <img src="images/headshot.png" width="464px" height="619px" alt="Picture of Jada Shepard">
                 </div>
             </div>
         </section>
@@ -138,6 +162,24 @@
                 </div>
             </div>
         </section>
+        <section class="my-hobbies">
+            <h1>WHEN NOT DESIGNING,</h1>
+            <h1>YOU CAN FIND ME</h1>
+            <div class="work-grid">
+                <div class="grid-item">
+                    <!--img tag here-->
+                    <h3>READING</h3>
+                </div>
+                <div class="grid-item">
+                    <!--img tag here-->
+                    <h3>CROCHETING</h3>
+                </div>
+                <div class="grid-item">
+                    <!--img tag here-->
+                    <h3>WATCHING HORROR MOVIES</h3>
+                </div>
+            </div>
+        </section>
         <footer>
             <div class="contact">
                 <h1>CONTACT</h1>
@@ -149,16 +191,22 @@
                 </div>
             </div>
             <ul>
-                <li class="inline-block">WORK</li>
-                <li class="inline-block">ABOUT</li>
-                <li class="inline-block">RESUME</li>
+                <li>WORK</li>
+                <li>ABOUT</li>
+                <li>RESUME</li>
             </ul>
             <ul>
-                <li class="inline-block">LinkedIn</li>
-                <li class="inline-block">Behance</li>
-                <li class="inline-block">Github</li>
-                <li class="inline-block">Twitter</li>
+                <li>LinkedIn</li>
+                <li>Behance</li>
+                <li>Github</li>
             </ul>
+            <!-- Copyright -->
+            <div>&copy; Copyright 2022 Jada Shepard, Rome GA</div>
         </footer>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

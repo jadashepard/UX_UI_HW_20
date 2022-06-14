@@ -11,42 +11,48 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     line-height: 1.5;
     background-color: #FBFEF9;
 }
 h1 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif; 
     font-size: 30px;
-    font-style: bold;
 }
 h2 {
     font-size: 30px;
-    font-style: bold;
 }
 h3 {
     font-size: 22px;
     font-style: normal;
 }
 p {
+    font-family: 'Anonymous Pro', monospace;
     font-size: 16px;
-    font-style: normal;
 }
 button {
     display: inline-block;
     background-color: #34a0a4;
-    border: 2px solid #0077b6;
+    border: none;
     color: white;
     font-family: 'Merriweather', serif;
     font-size: 14px;
-    font-style: bold;
-    padding: 15px;
-    border-radius: 8px;
+    font-style: normal;
+    padding: 12px;
+    border-radius: 6px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    border: 1px solid #0077b6;
 }
 /* NAVIGATION */
 .inline-block{
     padding: 15px;
     background-color: #B9CFBA;
+    overflow: hidden;
 }
 .inline-block ul{
     float: right;
@@ -56,8 +62,6 @@ button {
     padding: 0px 20px;
 }
 .inline-block a {
-    font-style: bold;
-    text-decoration: none;
     color: black;
 }
 /* FLEXBOX */
@@ -111,9 +115,24 @@ button {
     margin: 0 15px;
 }
 .grid-item{
-    background-color: #d8e2dc;
-    border: 2px solid #52796f;
+    border: none;
     padding: 15px;
+    border-radius: 12px;
+}
+.grid-item img{
+    justify-content: center;
+    width: 300px;
+    height: 339px;
+    object-fit: contain;
+}
+#cs1{
+    background-color: #FD7748;
+}
+#cs2{
+    background-color: #F8D941;
+}
+#cs3{
+    background-color: #FD9F9D;
 }
 /* PROCESS */
 .my-process{
@@ -129,7 +148,7 @@ button {
     text-align: left;
 }
 /* ABOUT */
-.about .left, .about .right{
+#about .left, #about .right{
     padding: 20px;
     width: 35vw;
     text-align: left;
@@ -144,19 +163,21 @@ button {
     text-align: center;
 }
 /* FOOTER */
-.contact{
-    text-align: center;
-}
 footer {
     padding: 5px;
+    margin: 10px 30px;
+}
+.contact{
+    text-align: center;
+    background-color: #F8D941;
 }
 footer ul{
     list-style: none;
     padding-left: 5px;
 }
-footer .inline-block{
+footer li {
     display: inline-block;
     padding: 0px 7px;
-    background-color: none;
+    background-color: white;
 }
 
