@@ -63,6 +63,15 @@ button:hover{
 .left, .right {
     text-align: center;
 }
+@media only screen and (max-width: 600px){
+    body .right img{
+        height: 400px;
+    }
+}
+.right img{
+    width: 100%;
+    height: 619px;
+}
 /* HERO */
 @media only screen and (max-width: 600px){
     .heroImg .flex-container{
@@ -75,7 +84,7 @@ button:hover{
 }
 .heroImg{
     background-color: #B9CFBA;
-    padding: 100px 15px;
+    padding: 20px 15px;
 }
 .heroImg .left {
     width: 35vw;
@@ -100,6 +109,7 @@ button:hover{
 }
 .my-skills .right, .my-skills .left {
     width: 25vw;
+    margin: 20px 0;
 }
 .my-skills .right{
     text-align: left;
@@ -152,11 +162,12 @@ button:hover{
 }
 /* PROCESS */
 .my-process{
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 /* TOOLS & LANGUAGES */
 .my-tools{
-    margin: 10px 30px;
+    margin: 20px 30px;
+    padding: 20px 0;
     background-color: #FCA17D;
     
 }
@@ -175,7 +186,7 @@ button:hover{
 }
 #about{
     background-color: #CBD6C8;
-    padding: 5px;
+    padding: 20px;
     margin: 10px 30px;
 }
 #about .left{
@@ -194,7 +205,7 @@ button:hover{
 }
 /* FOOTER */
 footer {
-    padding: 5px;
+    padding: 25px 0;
     margin: 10px 30px;
 }
 .contact{
