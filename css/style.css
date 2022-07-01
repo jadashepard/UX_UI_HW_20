@@ -36,7 +36,7 @@ button a{
     color: white;
 }
 button:hover{
-    border: 1px solid #0077b6;
+    background-color: #298184;
 }
 /* NAVIGATION */
 .inline-block{

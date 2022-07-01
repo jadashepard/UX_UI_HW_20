@@ -1,54 +1,28 @@
 body{
-    background-color: #123D67;
-    color: white;
+    margin: 30px;
+    padding: 20px;
 }
-h1{
-    color: #CDCDCD;
-    text-align: center;
-    margin: 20px;
+@media only screen and (max-width: 600px){
+    body img{
+        width: 420px;
+        height: auto;
+    }
 }
-h2{
-    color: #FBC122;
-}
-.responsive{
-    width: 100%;
+img{
+    width: 600px;
     height: auto;
-}
-.row{
-    padding: 30px;
-}
-/* SECONDARY NAVIGATION */
-.second-nav{
-    background-color: #CDCDCD;
-    padding: 10px;
-}
-.nav a{
-    color: #123D67;
-    font-size: 18px;
-    font-family: Arial;
 }
 /* TITLE */
 .title{
-    text-align: left;
-    margin: 30px auto;
-}
-/* OVERVIEW */
-#project-overview{
-    margin: 30px auto;
-}
-.card-section{
-    background-color: #3C6997;
-    margin: 30px auto;
-    padding: 15px;
-}
-.card-section .card{
-    margin: 5px;
+    text-align: center;
+    margin: 50px auto;
 }
 /* PROBLEM */
 #problem{
     margin: 30px auto;
 }
 /* PROCESS */
-.mobile-row{
-    background-color: aliceblue;
+.sketches img{
+    width: 420px;
+    height: auto;
 }
